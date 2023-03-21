@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    background-size: cover;
+}
+
+section  {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#e51e2a;
+}
+
+section .circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: 	#004B93;
+    clip-path: circle(81% at left -30%);  
+} 
+
+
+header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+header .navigation li {
+    list-style: none;
+}
+
+header .navigation li a{
+   
+    color: #fff;
+    
+} 
+.navigation a:hover
+{
+    color: #13005A;
+}
+
+header .navigation li a{
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+   
+}
+
+header .navigation li {
+    display: inline-block;
+    margin-left: 40px;
+    padding-bottom: 100px;
+   
+}
+ .Cont  {
+    position: relative; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+ .Cont .tBox
+ {
+    position: relative;
+    max-width: 600px;
+  
+ }
+ .Cont .tBox h2
+ {
+  color: #fff;
+  font-size: 3em;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+  font-weight:700;
+
+ }
+ .Cont .tBox p
+ {
+    color: #fff;
+   
+ }
+
+ .Cont .tBox a
+ {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    color:black;
+    background-color:#fff;
+    text-decoration: none; 
+    border-radius: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #e51e2a 50%, #fff 50%);
+    background-position:right;
+    transition: 0.5s;
+    background-size: 200% 100%;
+
+ }
+
+ 
+  .Cont .tBox a:hover
+ {
+background-position:left;
+
+
+ } 
+
+ .sci {
+    position:absolute;
+    bottom: 40px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.sci li
+{
+    list-style: none;
+}
+ .sci li a
+ {
+    display: inline-block;
+    margin-left: 15px;
+    background-color: #222;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.2 ease-in-out;
+ }
+ .sci li a:hover 
+ {
+    background-color: #e51e2a;
+    transform: translateY(-10px);
+   
+ }
+ 
+ .bott1 img
+ {
+    position:relative;
+    height:350px;
+    margin-right: 100px;
+ }
+ .shop img{
+    height:200px;
+ }
+.class
+{
+    color: #fff;
+}
+
+
+  @media (max-width:px) {
+    header
+    {
+        padding: 40px;
+    }
+    section
+    {
+        padding: 150px 40px;
+    }
+    .sci
+    {
+        right: 40px;
+    }
+
+    .Cont
+    {
+        flex-direction: column;
+    }
+    .Cont .tBox
+    {
+        max-width: 100%;
+    }
+
+    
+}  
+ @media screen and (max-width:900px){
+    .navigation 
+    {
+        display: none;
+    }
+} 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
